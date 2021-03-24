@@ -3,9 +3,17 @@
 <title>success</title>  
 </head>  
 <body>  
+
 	<figure><img src="{{img}}"	width="300" height="400" /></figure>
 <p>File uploaded successfully</p>  
 <p>File Name: {{name}}</p>  
+<form action="/getcsv" method="POST">
+  <label for="startdate">Start date:</label>
+  <input type="date"  name="startdate">
+  <label for="enddate">End date:</label>
+  <input type="date"  name="enddate">
+  <input type="submit">
+</form>
 
 
 </body>  
