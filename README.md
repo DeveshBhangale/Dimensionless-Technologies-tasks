@@ -12,14 +12,13 @@ https://www.youtube.com/watch?v=WuBcTJnIuzo
 
 After installing both the applications
 Open command prompt please open the downloaded files directory by using cd command:
-for eg : 
-  cd C:/Users/Downloads 
+for eg:cd C:/Users/Downloads 
 
 In the following directory run the following command:
 pip3 install -r requirement.txt
 This will install the required packages for running the program on your environment
 
-And finally run the program by using the:  python3 upload.py
+And finally run the program by entering the command:  python3 upload.py
 After that open browser and enter the following URL:
 127.0.0.1:5000
 
